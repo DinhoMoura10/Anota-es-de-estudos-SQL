@@ -23,10 +23,12 @@ Este repositório contém scripts e exemplos para estudo de SQL.
 
 - **Funções Agregadas**
   - Uso de `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
-  
-
-
-UPDATE NomeDaTabela SET Salario = Salario * 1.1 WHERE Departamento = 'TI';
+  ```sql
+  SELECT COUNT(*) FROM NomeDaTabela;
+  SELECT SUM(Valor) FROM NomeDaTabela;
+  SELECT AVG(Idade) FROM NomeDaTabela;
+  SELECT MIN(Salario) FROM NomeDaTabela;
+  SELECT MAX(Altura) FROM NomeDaTabela;
 
 
 
