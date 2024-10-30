@@ -25,21 +25,7 @@ Este repositório contém scripts e exemplos para estudo de SQL.
   - Uso de `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
   
 
-Exemplos de GROUP BY, HAVING.
 
-sql
-
-Copiar
-SELECT Departamento, COUNT(*) FROM NomeDaTabela GROUP BY Departamento;
-SELECT Departamento, AVG(Salario) FROM NomeDaTabela GROUP BY Departamento HAVING AVG(Salario) > 5000;
-Transações
-
-Exemplos de BEGIN TRANSACTION, COMMIT, ROLLBACK.
-
-sql
-
-Copiar
-BEGIN TRANSACTION;
 UPDATE NomeDaTabela SET Salario = Salario * 1.1 WHERE Departamento = 'TI';
 
 
